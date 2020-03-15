@@ -19,6 +19,7 @@ import { NoAccessComponent } from './no-access/no-access.component';
 import { AuthGaurd } from './services/auth-gaurd.service';
 import { AdminAuthGaurd } from './services/admin-auth-gaurd.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
