@@ -17,7 +17,7 @@ export class AuthService {
   }
 
   isLoggedIn() { 
- retuen tokenNotExpired();
+ return tokenNotExpired();
   }
 }
 
