@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { JwtHelper } from 'angular2-jwt';
 
 @Injectable()
 export class AuthService {
@@ -12,10 +13,11 @@ export class AuthService {
   }
 
   logout() { 
+    localStorage.removeItem('token');
   }
 
   isLoggedIn() { 
-    return false;
+ retuen tokenNotExpired();
   }
 }
 
